@@ -1,3 +1,12 @@
- static int solveMeFirst(int a, int b) {
-      	// Hint: Type return a+b; below 
-        return a+b;
+ static int simpleArraySum(int[] ar) {
+        /*
+         * Write your code here.
+         */
+        int i=0,s=0;
+        for(i=0;i<ar.length;i++)
+        {
+            s=s+ar[i];
+        }
+        return s;
+
+    }
